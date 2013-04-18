@@ -1,0 +1,5 @@
+Pidgin (http://pidgin.im) plugin to show a contact's timezone in the upper-right corner of their conversation window.
+
+To compile, download and ./configure pidgin source, copy buddytime.c to pidgin-[version]/pidgin/plugins/, and "make buddytime.so".  Install buddytime.so in /usr/lib/pidgin.
+
+To set a contact's timezone, right-click them in the buddy list and "Set Timezone".  Timezones are in the format used in /usr/share/zoneinfo, e.g. "America/New_York".
